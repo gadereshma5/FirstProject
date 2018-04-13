@@ -10,12 +10,19 @@ run= True
 def perform_math():
     global run   # need to declare global variable
     global previous
-
-    equation = input("Enter Equation:")
+    equation=""
+    if previous ==0:
+        equation = input("Enter Equation:")
+    else:
+        equation=input(str(previous))
     if equation=='quit':
         run=False
     else:
-        print("You typed....",equation)
+        equation=re.sub('[a-zA-Z,.:" "()]','',equation)
+        if previous==0:
+            previous=eval(equation)
+        else:
+            previous=eval(str(previous)+equation)
 
 
 
