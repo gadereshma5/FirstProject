@@ -3,7 +3,7 @@ import random
 
 playerhp=260
 enemyatklow=60
-enemyatkhigh=80
+enemyatkhigh = 80
 
 while playerhp>0:
 	dmg=random.randrange(enemyatklow,enemyatkhigh)

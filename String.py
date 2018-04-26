@@ -1,9 +1,9 @@
-#String Manupulation(Sring is any text that you want to be Treated as a text within a programm)
+#  String Manupulation(Sring is any text that you want to be Treated as a text within a programm)
 print("H"+"e"+"l"+"l"+"o")
 print("This cost's "+str(6)+" dollars")
 print("this cost's "+str(6+5)+" dollars")
 
-#String Splits
+#  String Splits
 print("Hello:Nick")
 print(("Hello:Nick").split(":"))
 print(("Hello.Reshma").split("."))

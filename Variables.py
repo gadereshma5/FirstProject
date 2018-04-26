@@ -1,4 +1,4 @@
-#Variables
+#  Variables
 
 var="Hello World"
 print(var)
@@ -6,10 +6,11 @@ print(var)
 var = var.split(" ")[0]
 print(var)
 
-#concate
+#  concate
+
 print(var+" Nick")
 
-#assigning value to variable
+#  assigning value to variable
 
 var=var+" nick"
 print(var)
